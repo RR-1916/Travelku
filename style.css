@@ -1,0 +1,101 @@
+#services img{
+    height: 150px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.animated-tulisan {
+    animation: slideInLeft;
+    animation-duration: 2s; 
+    --animate-repeat:var(--animate-repeat) 
+}
+
+.animated-gambar {
+    animation: slideInUp;
+    animation-duration: 2s; 
+    --animate-repeat:var(--animate-repeat)
+}
+
+.font-navbar {
+    font-family: "Shadows Into Light", serif;
+    font-weight: 600;
+    font-size:xx-large;
+    font-style: normal;
+  }
+
+  .col-md {
+    display: flex;
+}
+
+
+.font-welcome {
+  font-family: "Merriweather", serif;
+  margin-top: 20px; 
+  color: white;
+  font-size: 4rem; 
+}
+
+.font-populer {
+  font-family: "Coustard", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-contact {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.nav-link:hover {
+  scale: 1.1;
+  transition: all .2s;
+  border-bottom: 1px solid black;
+}
+
+.hover:hover {
+  scale: 1.1;
+  box-shadow: 16px 16px var(--shadow);
+  transition: all 0.2s;
+}
+
+.background {
+  min-height : 70vh;
+  display: flex;
+  align-items: flex-start;
+  background-image: url('assets/images/bromo\ 2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.input-group1 {
+  max-width: 500px; 
+  width: 100%; 
+  border-radius:5ch;
+}
+
+.input-group1 .form-control {
+  border-radius:5ch;
+}
+
+.input-group .btn {
+  border-radius: 0; 
+}
+
+.hover-promo:hover {
+  scale: 1.1;
+  box-shadow: 16px 16px var(--shadow);
+  transition: all 0.2s;
+}
+
+.navbar {
+    transition: all 0.3s ease; 
+}
+
+.navbar.scrolled {
+  background-color: #edeeef !important; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
